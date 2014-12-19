@@ -1,0 +1,139 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'uglifycss', '-g' ]
+2 info using npm@2.0.0
+3 info using node@v0.10.25
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'uglifycss', null ]
+6 verbose cache add spec="uglifycss" args=["uglifycss",null]
+7 verbose parsed spec { raw: 'uglifycss',
+7 verbose parsed spec   scope: null,
+7 verbose parsed spec   name: 'uglifycss',
+7 verbose parsed spec   rawSpec: '',
+7 verbose parsed spec   spec: '*',
+7 verbose parsed spec   type: 'range' }
+8 verbose parsed spec { raw: 'uglifycss',
+8 verbose parsed spec   scope: null,
+8 verbose parsed spec   name: 'uglifycss',
+8 verbose parsed spec   rawSpec: '',
+8 verbose parsed spec   spec: '*',
+8 verbose parsed spec   type: 'range' }
+9 verbose addNamed [ 'uglifycss', '*' ]
+10 verbose addNamed [ null, '*' ]
+11 silly lockFile e84844cb-uglifycss uglifycss@*
+12 verbose lock uglifycss@* /home/bruno/.npm/e84844cb-uglifycss.lock
+13 silly addNameRange { name: 'uglifycss', range: '*', hasData: false }
+14 verbose mapToRegistry name uglifycss
+15 verbose mapToRegistry uri https://registry.npmjs.org/uglifycss
+16 verbose request on initialization, where is /uglifycss
+17 verbose request after pass 1, where is /uglifycss
+18 verbose request url raw /uglifycss
+19 verbose request resolving registry [ 'https://registry.npmjs.org/', './uglifycss' ]
+20 verbose request after pass 2, where is https://registry.npmjs.org/uglifycss
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 17:30:12
+23 verbose request id 6f11a233263b8b49
+24 verbose etag "XTC5ZPC0BKGWFW9TRS0OQMIQ"
+25 http request GET https://registry.npmjs.org/uglifycss
+26 http 304 https://registry.npmjs.org/uglifycss
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Thu, 18 Dec 2014 16:30:12 GMT',
+27 silly registry.get     server: 'Apache',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'last-modified': 'Thu, 18 Dec 2014 16:30:12 GMT',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     etag: '"XTC5ZPC0BKGWFW9TRS0OQMIQ"',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-ams4143-AMS',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1418920212.865631,VS0,VE88',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'content-length': '0',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 verbose etag https://registry.npmjs.org/uglifycss from cache
+29 silly addNameRange number 2 { name: 'uglifycss', range: '*', hasData: true }
+30 silly addNameRange versions [ 'uglifycss',
+30 silly addNameRange   [ '0.0.3',
+30 silly addNameRange     '0.0.4',
+30 silly addNameRange     '0.0.5',
+30 silly addNameRange     '0.0.7',
+30 silly addNameRange     '0.0.8',
+30 silly addNameRange     '0.0.9',
+30 silly addNameRange     '0.0.10',
+30 silly addNameRange     '0.0.11' ] ]
+31 verbose addNamed [ 'uglifycss', '0.0.11' ]
+32 verbose addNamed [ '0.0.11', '0.0.11' ]
+33 silly lockFile da626510-uglifycss-0-0-11 uglifycss@0.0.11
+34 verbose lock uglifycss@0.0.11 /home/bruno/.npm/da626510-uglifycss-0-0-11.lock
+35 silly lockFile da626510-uglifycss-0-0-11 uglifycss@0.0.11
+36 silly lockFile da626510-uglifycss-0-0-11 uglifycss@0.0.11
+37 silly lockFile e84844cb-uglifycss uglifycss@*
+38 silly lockFile e84844cb-uglifycss uglifycss@*
+39 silly resolved [ { author:
+39 silly resolved      { name: 'Franck Marcia',
+39 silly resolved        email: 'franck.marcia@gmail.com',
+39 silly resolved        url: 'https://github.com/fmarcia' },
+39 silly resolved     name: 'uglifycss',
+39 silly resolved     description: 'Port of YUI CSS Compressor to NodeJS',
+39 silly resolved     version: '0.0.11',
+39 silly resolved     license: 'MIT',
+39 silly resolved     homepage: 'https://github.com/fmarcia/UglifyCSS',
+39 silly resolved     repository: { type: 'git', url: 'git://github.com/fmarcia/UglifyCSS.git' },
+39 silly resolved     main: './index.js',
+39 silly resolved     bin: { uglifycss: './uglifycss' },
+39 silly resolved     gitHead: '3c140347adb0ed9e85c89372d502fd96c35bcfb9',
+39 silly resolved     bugs: { url: 'https://github.com/fmarcia/UglifyCSS/issues' },
+39 silly resolved     _id: 'uglifycss@0.0.11',
+39 silly resolved     scripts: {},
+39 silly resolved     _shasum: '78621ebf7544e1ad37ab3814e7318c1ae777922d',
+39 silly resolved     _from: 'uglifycss@*',
+39 silly resolved     _npmVersion: '2.0.0',
+39 silly resolved     _npmUser: { name: 'fmarcia', email: 'franck.marcia@gmail.com' },
+39 silly resolved     maintainers: [ [Object] ],
+39 silly resolved     dist:
+39 silly resolved      { shasum: '78621ebf7544e1ad37ab3814e7318c1ae777922d',
+39 silly resolved        tarball: 'http://registry.npmjs.org/uglifycss/-/uglifycss-0.0.11.tgz' },
+39 silly resolved     directories: {},
+39 silly resolved     _resolved: 'https://registry.npmjs.org/uglifycss/-/uglifycss-0.0.11.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install uglifycss@0.0.11 into /usr/lib
+41 info installOne uglifycss@0.0.11
+42 verbose lib/node_modules/uglifycss unbuild
+43 verbose gentlyRm vacuuming /usr/lib/node_modules/uglifycss
+44 verbose tar unpack /home/bruno/.npm/uglifycss/0.0.11/package.tgz
+45 silly lockFile 7679ebaa-r-usr-lib-node-modules-uglifycss tar:///usr/lib/node_modules/uglifycss
+46 verbose lock tar:///usr/lib/node_modules/uglifycss /home/bruno/.npm/7679ebaa-r-usr-lib-node-modules-uglifycss.lock
+47 silly lockFile 1015ef5c-npm-uglifycss-0-0-11-package-tgz tar:///home/bruno/.npm/uglifycss/0.0.11/package.tgz
+48 verbose lock tar:///home/bruno/.npm/uglifycss/0.0.11/package.tgz /home/bruno/.npm/1015ef5c-npm-uglifycss-0-0-11-package-tgz.lock
+49 verbose gentlyRm vacuuming /usr/lib/node_modules/uglifycss
+50 silly gunzTarPerm modes [ '775', '664' ]
+51 verbose fstream_path /usr/lib/node_modules/uglifycss
+52 verbose fstream_type Directory
+53 verbose fstream_class DirWriter
+54 verbose stack Error: EACCES, mkdir '/usr/lib/node_modules/uglifycss'
+55 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+55 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+55 verbose fstream_stack Object.oncomplete (fs.js:107:15)
+56 verbose cwd /home/bruno/projects/BBBLoadBalancer-chef/BBBLoadBalancer
+57 error Linux 3.13.0-43-generic
+58 error argv "node" "/usr/local/bin/npm" "install" "uglifycss" "-g"
+59 error node v0.10.25
+60 error npm  v2.0.0
+61 error path /usr/lib/node_modules/uglifycss
+62 error code EACCES
+63 error errno 3
+64 error Error: EACCES, mkdir '/usr/lib/node_modules/uglifycss'
+64 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/uglifycss']
+64 error   errno: 3,
+64 error   code: 'EACCES',
+64 error   path: '/usr/lib/node_modules/uglifycss',
+64 error   fstream_type: 'Directory',
+64 error   fstream_path: '/usr/lib/node_modules/uglifycss',
+64 error   fstream_class: 'DirWriter',
+64 error   fstream_stack:
+64 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+64 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+64 error      'Object.oncomplete (fs.js:107:15)' ] }
+65 error Please try running this command again as root/Administrator.
+66 verbose exit [ 3, true ]
