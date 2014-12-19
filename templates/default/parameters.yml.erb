@@ -19,4 +19,4 @@ parameters:
     app.email: test@example.com
     app.email_noreply: no-reply@example.com
 
-    bbb.salt: thesaltonthebbbservers
+    bbb.salt: <%= node[:bbb][:salt] %>

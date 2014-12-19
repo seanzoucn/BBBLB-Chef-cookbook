@@ -79,13 +79,10 @@ end
 # app parameters
 
 template "/var/www/BBBLoadBalancer/app/config/parameters.yml" do
-  source "parameters.yml"
+  source "parameters.yml.erb"
   mode 0775
   owner "www-data"
   group "www-data"
-  variables({
-     :salt => node[:bbb][:salt]
-  })
 end
 
 # composer
