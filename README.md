@@ -35,7 +35,7 @@ Include `BBBLoadBalancer` in your node's `run_list`:
 
     chef.json = {
       bbb: {
-        salt: 'placethesalthere'
+        salt: 'ce704dc886e34675cd47630298de8022'
       }
     }
 
