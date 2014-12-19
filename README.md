@@ -6,7 +6,7 @@ You can use this cookbook to setup a BigBlueButton load balancer with Chef
 
 ### Dependencies
 
-    [Chef DK](https://downloads.chef.io/chef-dk/)
+- [Chef DK](https://downloads.chef.io/chef-dk/)
 
 ### BBBLoadBalancer::default
 
