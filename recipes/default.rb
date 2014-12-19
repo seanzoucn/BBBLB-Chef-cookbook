@@ -83,6 +83,9 @@ template "/var/www/BBBLoadBalancer/app/config/parameters.yml" do
   mode 0775
   owner "www-data"
   group "www-data"
+  variables({
+     :salt => node[:bbb][:salt]
+  })
 end
 
 # composer

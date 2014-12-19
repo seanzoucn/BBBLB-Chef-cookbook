@@ -31,6 +31,14 @@ Include `BBBLoadBalancer` in your node's `run_list`:
     $ vagrant plugin install vagrant-berkshelf
     $ vagrant plugin install vagrant-omnibus
 
+### Change salt string in Vagrantfile
+
+    chef.json = {
+      bbb: {
+        salt: 'placethesalthere'
+      }
+    }
+
 ## Start Vagrant box
 
     $ berks install
