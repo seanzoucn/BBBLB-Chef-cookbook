@@ -24,7 +24,7 @@ Include `BBBLoadBalancer` in your node's `run_list`:
 
 ### dependencies
 
-    [Chef DK](https://downloads.chef.io/chef-dk/)
+- [Chef DK](https://downloads.chef.io/chef-dk/)
 
 ### vagrant required modules
 
