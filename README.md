@@ -41,6 +41,5 @@ Include `BBBLoadBalancer` in your node's `run_list`:
 
 ## Start Vagrant box
 
-    $ berks install
     $ vagrant up
 
