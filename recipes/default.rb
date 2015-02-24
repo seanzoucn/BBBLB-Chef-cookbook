@@ -83,6 +83,15 @@ template "/var/www/BBBLoadBalancer/app/config/parameters.yml" do
   group "www-data"
 end
 
+# npm install
+
+nodejs_npm 'npm-install' do
+  path '/var/www/BBBLoadBalancer/'
+  json true
+  user 'www-data'
+end
+
+
 # composer
 
 composer_project "/var/www/BBBLoadBalancer" do
@@ -92,13 +101,6 @@ composer_project "/var/www/BBBLoadBalancer" do
     not_if { ::Dir.exists?("/var/www/BBBLoadBalancer/vendor")}
     user "www-data"
     group "www-data"
-end
-
-# dump assets
-
-execute "app-assets-install" do
-  command 'cd /var/www/BBBLoadBalancer; app/console assets:install --quiet; app/console assetic:dump --quiet --env=prod'
-  action :run
 end
 
 
