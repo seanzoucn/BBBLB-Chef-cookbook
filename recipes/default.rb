@@ -246,3 +246,9 @@ cron "check_servers" do
   user "www-data"
   command %Q{/var/www/BBBLoadBalancer/app/console bbblb:servers:check --env=prod}
 end
+
+cron "cleanup_meetings" do
+  minute "*"
+  user "www-data"
+  command %Q{/var/www/BBBLoadBalancer/app/console bbblb:meetings:cleanup --env=prod}
+end
