@@ -97,7 +97,7 @@ end
 composer_project "/var/www/BBBLoadBalancer" do
     dev true
     quiet true
-    action :update
+    action :install
     not_if { ::Dir.exists?("/var/www/BBBLoadBalancer/vendor")}
     user "www-data"
     group "www-data"
