@@ -43,3 +43,9 @@ Include `BBBLoadBalancer` in your node's `run_list`:
 
     $ vagrant up
 
+
+## Adding BBB Servers to the load balancer
+
+Access the web interface: http://serverip
+The first time you access this page, you must create an admin user. After creating this user, you can manage the BBB load balancer. You need to add at least 1 BBB server to the list of servers before you can use the load balancer.
+
