@@ -67,7 +67,7 @@ directory "/var/www" do
 end
 
 git "/var/www/BBBLoadBalancer" do
-  repository "https://github.com/brunogoossens/BBB-Load-Balancer.git"
+  repository "https://github.com/ICTO/BBB-Load-Balancer.git"
   reference "master"
   action :sync
   user "www-data"
